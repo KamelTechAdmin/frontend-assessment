@@ -1,15 +1,8 @@
-import { useState } from 'react'
-import './App.css'
-import Layout from './layouts/Layout'
+import "./App.css";
+import TicketView from "./pages/TicketView";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <Layout>
-      Content
-    </Layout>
-  )
+  return <TicketView></TicketView>;
 }
 
-export default App
+export default App;
